@@ -1,5 +1,5 @@
 ### 단계별로 풀어보기 진도표  
-> C99_Step_by_step [link](https://www.acmicpc.net/step)
+> [문제 사이트](https://www.acmicpc.net/step)
 
 - [x] 1단계: 입출력과 사칙연산  
 - [ ] 2단계: 조건문  

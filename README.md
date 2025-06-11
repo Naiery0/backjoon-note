@@ -2,7 +2,7 @@
 
 - 백준 코딩문제 풀이 연습장
 - https://www.acmicpc.net/
-- 단계별로_풀어보기 현재 진도 [확인](TRACKER.md)
+- 단계별로_풀어보기 현재 진도 [확인](./C99_Step_by_Step/TRACKER.md)
 
 
 ## 기록 노트
