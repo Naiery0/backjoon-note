@@ -20,11 +20,10 @@
 
 ### 3단계 - 반복문
 - 가변 길이 배열은 c언어에서 안 된다고 알고 있었는데, C99이상 버전에서는 된다고 한다. malloc을 안 써도 된다니!
-- Visual Stdio에서는 에러난다.
-[_>](./C99_Step_by_Step/Step03/10950-A+B.c)
+- Visual Stdio에서는 에러난다. [_>](./C99_Step_by_Step/Step03/10950-A+B.c)
 <img src="./image/back02.png">
 
-- 입력 -> 출력 -> 입력 -> 출력이 허용되는 줄도 모르고 어렵게 풀고 있었다... [깨달음 _>](./C99_Step_by_Step/Step03/10952-A+B.c)
+- 입력 -> 출력 -> 입력 -> 출력이 허용되는 줄도 모르고 어렵게 풀고 있었다... 즉, 지금까지는 배열을 쓸 필요가 없었음 [깨달음 _>](./C99_Step_by_Step/Step03/10952-A+B.c)
 
 - C언어의 EOF에 대하여 [_>](./C99_Step_by_Step/Step03/10951-EOF.c) / [참고자료](https://ip99202.github.io/posts/C%EC%96%B8%EC%96%B4-eof-%EC%B2%98%EB%A6%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/)
 
