@@ -20,6 +20,7 @@
 
 ### 3단계 - 반복문
 - 가변 길이 배열은 c언어에서 안 된다고 알고 있었는데, C99이상 버전에서는 된다고 한다. malloc을 안 써도 된다니!
+- Visual Stdio에서는 에러난다.
 [_>](./C99_Step_by_Step/Step03/10950-A+B.c)
 <img src="./image/back02.png">
 
