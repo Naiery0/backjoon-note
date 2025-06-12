@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="8393-1부터n합.c">
+    <ClCompile Include="10951-EOF.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

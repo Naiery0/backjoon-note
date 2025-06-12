@@ -24,3 +24,7 @@
 [_>](./C99_Step_by_Step/Step03/10950-A+B.c)
 <img src="./image/back02.png">
 
+- 입력 -> 출력 -> 입력 -> 출력이 허용되는 줄도 모르고 어렵게 풀고 있었다... [깨달음 _>](./C99_Step_by_Step/Step03/10952-A+B.c)
+
+- C언어의 EOF에 대하여 [_>](./C99_Step_by_Step/Step03/10951-EOF.c) / [참고자료](https://ip99202.github.io/posts/C%EC%96%B8%EC%96%B4-eof-%EC%B2%98%EB%A6%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/)
+
