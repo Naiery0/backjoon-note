@@ -11,5 +11,4 @@ int main() {
 
 	scanf("%d", &year);
 	printf("%d", year - x);
-
 }
