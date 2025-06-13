@@ -6,7 +6,7 @@
 
 
 ## 기록 노트
-### 1단계 - 입출력과 사칙연산
+### 1단계 - 입출력과 사칙연산 
 - long long 타입이라는 친구도 있더라 [_>](./C99_Step_by_Step/Step01/10172.c)
 ```c 
     long long A, B, C;
@@ -27,3 +27,7 @@
 
 - C언어의 EOF에 대하여 [_>](./C99_Step_by_Step/Step03/10951-EOF.c) / [참고자료](https://ip99202.github.io/posts/C%EC%96%B8%EC%96%B4-eof-%EC%B2%98%EB%A6%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/)
 
+### 4단계 - 1단계 배열
+- 문제를 잘 읽어야 함과 적절한 자료형 선택의 중요성.[->](./C99_Step_by_Step/Step04/1546-평균.c)
+
+### 5단계 - 문자열
