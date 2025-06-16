@@ -14,9 +14,17 @@ int main() {
     // printf("%d", 'a'); //97
     char S[100];
     scanf("%s", S);
-
-    for (int i = 0; i < 26; i++) {
-
+    int tf = 0;
+    for (int i = 97; i <123 ; i++) {
+        for (int j = 0; j < strlen(S); j++) {
+            if (i == S[j]) {
+                printf("%d ", j);
+                tf = 1;
+                break;
+            }
+        }
+        if (tf == 0) printf("-1 ");
+        else tf = 0;
     }
     
     return 0;
