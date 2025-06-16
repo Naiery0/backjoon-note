@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="11720-숫자합.c">
+    <ClCompile Include="10809-알파벳찾기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
