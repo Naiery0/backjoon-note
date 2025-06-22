@@ -1,11 +1,15 @@
 # 백준 풀이 연습장
 
 - 백준 코딩문제 풀이 연습장
-- https://www.acmicpc.net/
-- 단계별로_풀어보기 현재 진도 [확인](./C99_Step_by_Step/TRACKER.md)
+- [문제 사이트](https://www.acmicpc.net/)
 
 
 ## 기록 노트
+<details>
+<summary>단계별 풀이 기록</summary>
+
+- 단계별로_풀어보기 현재 진도 [확인](./C99_Step_by_Step/TRACKER.md)
+
 ### 1단계 - 입출력과 사칙연산 
 - long long 타입이라는 친구도 있더라 [_>](./C99_Step_by_Step/Step01/10172.c)
 ```c 
@@ -31,10 +35,22 @@
 - 문제를 잘 읽어야 함과 적절한 자료형 선택의 중요성.[->](./C99_Step_by_Step/Step04/1546-평균.c)
 
 ### 5단계 - 문자열
-- c언어에서 문자열 -> 정수로 받는 방법 [_>]
-(./C99_Step_by_Step//Step05/11720-숫자합.c)
+- c언어에서 문자열 -> 정수로 받는 방법 [_>](./C99_Step_by_Step//Step05/11720-숫자합.c)
 - c언어에서 scanf를 그냥 쓰면 공백 안 받음. [_>](./C99_Step_by_Step/Step05/1152-단어개수.c)
 - 정수 -> 문자열 [_>](./C99_Step_by_Step/Step05/2908-큰숫자거꾸로.c)
 - 쉽게 풀긴 했는데 더 좋은 방법이 있지 않을까 영 찝찝함 [_>](./C99_Step_by_Step/Step05/5622-다이얼전화.c)
 
+
 ### 6단계 - 심화 1
+
+`-----------------------------------------`
+</details>
+
+<details>
+    <summary> 기타 문제 기록</summary>
+    <!-- <details>
+        <summary> 1. 문제 이름</summary>
+        - 내용
+    </details> -->
+
+</details>
