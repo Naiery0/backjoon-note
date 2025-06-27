@@ -42,6 +42,66 @@
 
 
 ### 6단계 - 심화 1
+- [_>](./C99_Step_by_Step/Step06/1157-단어공부-시간복잡도%20이슈.c) 이 소스 컴파일러에선 문제가 없는데 백준에선 아무래도 100만 x 100만이라 문제가 발생해서 정답처리가 안 됨.
+```c
+    // 알파벳순 정렬
+    char temp;
+    for (int i = 0; i < strlen(word); i++) {
+        for (int j = 0; j < i; j++) {
+            if (word[j] > word[i]) {
+                temp = word[i];
+                word[i] = word[j];
+                word[j] = temp;
+            }
+        }
+    }
+```
+ 정렬 없이 풀어야겠음.
+ 
+ ㄴ-> 정렬없이 풀었는데도 시간초과 에러뜨길래 알아봤더니 strlen도 꽤 시간이 걸리는 녀석이라고 함.
+ [_>](./C99_Step_by_Step/Step06/1157-단어공부.c)
+ 원래 코드
+ ```c
+    char word[1000001];
+    scanf("%s", word);
+
+    // 대문자로 만들기
+    for (int i = 0; i < strlen(word); i++) {
+        if (word[i] > 90) word[i] = word[i] - 32;
+    }
+    int count[26] = { 0, };
+
+    // 등장횟수
+    for (int i = 0; i < strlen(word); i++) {
+        count[word[i] - 65]++;
+    }
+ ``` 
+
+ 개선 코드
+ ```c
+    char word[1000001];
+    scanf("%s", word);
+
+    int count[26] = { 0, };
+    // 대문자로 만들기 / 등장횟수
+    for (int i = 0; i < strlen(word); i++) {
+        if (word[i] > 90) word[i] = word[i] - 32;
+        count[word[i] - 65]++;
+    }
+ ```
+  근데 이래도 시간 초과래ㅋㅋ 미쳐버리겠음
+  그래서 지피티한테 물어봤음...
+
+  이유는 for문 안에 있는 strlen 자체가 문제였음
+  ```c
+  // 원래 쓴 모양
+  for (int i = 0; i < strlen(word); i++)
+
+  // 바꾼 모양
+  int len = strlen(word);
+  for (int i = 0; i < len; i++)
+  ```
+  이렇게 해야 strlen이 여러 번 호출 되지 않음.
 
 `-----------------------------------------`
 </details>
