@@ -1,7 +1,7 @@
-# 백준 풀이 연습장
+## 코딩문제 풀이 연습장
 
-- 백준 코딩문제 풀이 연습장
-- [문제 사이트](https://www.acmicpc.net/)
+- 코딩문제 풀이 연습장
+- [Baekjoon](https://www.acmicpc.net/)
 
 
 ## 기록 노트
@@ -108,9 +108,11 @@
 
 <details>
     <summary> 기타 문제 기록</summary>
-    <!-- <details>
-        <summary> 1. 문제 이름</summary>
-        - 내용
-    </details> -->
+
+</details>
+
+
+<details>
+    <summary>  </summary>
 
 </details>
